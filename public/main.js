@@ -2,42 +2,6 @@ import forgetPassword from "/asset/pages/forgetpass.js";
 import signIn from "/asset/pages/signin.js";
 import logIn from "/asset/pages/login.js";
 const body = document.querySelector("body");
-// btnSubmit.addEventListener("click", () => {
-//   let resultEmail = false;
-//   let resultPassword = false;
-//   if (!userInput.value && !emailInput.value && !passInput.value) {
-//     alert("your form is empty , please fill it");
-//     return;
-//   } else if (!userInput.value) {
-//     alert("please fill username");
-//     return;
-//   } else if (!emailInput.value) {
-//     alert("please fill email");
-//     return;
-//   } else if (!passInput.value) {
-//     alert("please fill password");
-//     return;
-//   }
-//   if (emailInput.value) {
-//     if (passInput.value) {
-//       resultEmail = checkemail();
-//       resultPassword = checkPassword(passInput.value);
-//       if (resultPassword && resultEmail) {
-//         saveItems();
-//         return;
-//       }
-//     }
-//   }
-//   if (
-//     userInput.value &&
-//     emailInput.value &&
-//     resultEmail &&
-//     resultPassword &&
-//     passInput.value
-//   ) {
-//     saveItems();
-//   }
-// });
 function checkemail(email) {
   let testresults = false;
   let str = email;
