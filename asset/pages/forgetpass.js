@@ -1,5 +1,5 @@
 const forgetPassword = () => {
-  return `<div class="flex items-center justify-center max-w-full h-screen">
+  return `<div class="flex items-center justify-center max-w-full h-screen p-96 md:p-2">
     <div
       class="w-96 rounded-md shadow-lg px-4 py-8 backdrop-blur-xl bg-pink-800"
     >
